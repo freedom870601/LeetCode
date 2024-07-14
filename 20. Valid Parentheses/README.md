@@ -15,3 +15,7 @@ The problem requires us to determine if the given string of brackets is valid or
 3. If the current character is an open bracket (i.e., (, {, [), push it onto the stack.
 4. If the current character is a close bracket (i.e., ), }, ]), check if the stack is empty. If it is empty, return false. Otherwise, pop the top element from the stack and check if it is the corresponding open bracket. If it does not match, return false.
 5. After traversing the entire input string, check if the stack is empty. If it is empty, return true. Otherwise, return false because some opening brackets have not been matched with their corresponding closing brackets.
+
+# Time complexity
+* The time complexity of the solution is $O(n)$, where n is the length of the input string. 
+* he space complexity of the solution is $O(n)$, where n is the length of the input string.
